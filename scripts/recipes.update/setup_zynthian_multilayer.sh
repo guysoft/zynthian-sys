@@ -8,6 +8,9 @@ fi
 # Update repositories filelist cache
 apt-get update
 
+# Update System
+apt-get -y upgrade
+
 # Install WIFI support
 apt-get -y install wpasupplicant firmware-brcm80211 wireless-tools
 
