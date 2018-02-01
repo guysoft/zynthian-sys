@@ -119,7 +119,7 @@ git clone -b master https://github.com/zynthian/zynthian-ui.git
 
 # Zynthian System Scripts and Config files
 cd $ZYNTHIAN_DIR
-git clone -b master https://github.com/zynthian/zynthian-sys.git
+git clone -b realtimepi-test https://github.com/guysoft/zynthian-sys.git
 
 # Zynthian Data
 cd $ZYNTHIAN_DIR
