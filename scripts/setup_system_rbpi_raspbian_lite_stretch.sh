@@ -40,9 +40,6 @@ apt-get -y install sudo apt-transport-https software-properties-common htpdate p
 # Adjust System Date/Time
 htpdate 0.europe.pool.ntp.org
 
-# Update Firmware
-rpi-update
-
 #------------------------------------------------
 # Add Repositories
 #------------------------------------------------
