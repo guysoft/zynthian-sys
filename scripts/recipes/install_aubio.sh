@@ -10,4 +10,5 @@ if [ ! -d "aubio" ]; then
 	cp -fa ./build/examples/aubiopitch /usr/local/bin
 	cp -fa ./build/examples/aubioquiet /usr/local/bin
 	cp -fa ./build/examples/aubiotrack /usr/local/bin
+	for i in $(ps aux | grep gpg | grep -v grep | awk '{ print $2 }'); do kill -9 $i; done
 fi
